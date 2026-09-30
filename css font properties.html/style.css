@@ -1,0 +1,48 @@
+.title {
+    font-family:"Open sans", Arial sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.intro{
+    font-family: "Lato", Arial sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.33;
+}
+
+.place-title{
+    font-family:"Open sans", Arial sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+
+.description{
+font-family: "Lato", Arial sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.fact{
+     font-family: "Lato", Arial sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.33;
+}
+
+.quote{
+     font-family: Georgia, 'Times New Roman', Times, serif
+    font-size  22px;
+    font-weight: 400;
+    line-height: 1.41;
+}
+
+.button{
+     font-family: "Lato", Arial sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
