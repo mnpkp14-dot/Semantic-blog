@@ -1,48 +1,89 @@
 .title {
-    font-family:"Open sans", Arial sans-serif;
-    font-size: 48px;
-    font-weight: 700;
+  font-family: "Open sans", Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: #1e3a5f;
 }
 
-.intro{
-    font-family: "Lato", Arial sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.33;
+.intro {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.33;
+  color: 5266D;
+}
+.place-title {
+  font-family: "Open sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: teal;
 }
 
-.place-title{
-    font-family:"Open sans", Arial sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    
+.description {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #52606d;
 }
 
-
-.description{
-font-family: "Lato", Arial sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
+.fact {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.33;
+  color: rgb(120, 80, 20);
+  background-color: rba(255, 193, 7, 018);
+}
+.quote {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.41;
+  color: #6b4e71;
+  background-color: rgba(07, 78 113, 0.1);
 }
 
-.fact{
-     font-family: "Lato", Arial sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.33;
+.button {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  background-color: teal;
 }
 
-.quote{
-     font-family: Georgia, 'Times New Roman', Times, serif
-    font-size  22px;
-    font-weight: 400;
-    line-height: 1.41;
+.travel-guilde {
+  color: rgb(245, 248, 250);
+}
+/* Specificiity: 0 0 0 1 */
+h3 {
+  color: red;
+}
+/* 0 0 1 0 */
+.place-title {
+  color: blue;
+}
+/* The class selector wins beacause it has higher specificity. */
+
+/*0100*/
+#special-place {
+  color: purple;
+}
+/* Brown win,The inline style has higher speificity than the element, class, and ID selectors.
+1000 the specific of inline */
+
+.first-place {
+  color: green;
 }
 
-.button{
-     font-family: "Lato", Arial sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    
+.second-place {
+  color: orange;
 }
+/* when two selector have equal specificity, the seclector that appears later in the Css win.
+
+h3=0001
+.placetitle= 0010
+id#special place = 0100
+inline style = 1000
+
+first and second this two selector qual specificity the seclector that appears later in the Css win.
